@@ -1,0 +1,7 @@
+$style:
+- /_style/
+- verbatim: |-
+    \def\jeolminstitution{%
+      СУНЦ МГУ им.~М.\,В.\,Ломоносова~--- школа им.~А.\,Н.\,Колмогорова}
+    \def\jeolmdaterange{2016-2017}
+    \def\jeolmgroup{Алгебра 10БВ}
