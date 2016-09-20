@@ -1,0 +1,105 @@
+% $date: 2016-09-16
+
+\section*{Системы линейных уравнений --- 2. Метод Крамера}
+
+% $build$matter[print]: [[.], [.]]
+
+\begin{problems}
+
+\item
+Решите системы уравнений для каждого действительного значения параметра $a$
+(и~$b$, если он есть).\begin{tabbing}
+\begin{subproblemeq}
+\left\{\begin{aligned} &
+    a x + y = a^2
+\\ &
+    x + a y = 1
+\end{aligned}\right.
+\end{subproblemeq}
+\hspace{1.5em}\=
+%\subproblem
+%\(\left\{\begin{aligned} &
+%    a x + a y = a^2
+%\\ &
+%    x + a y = 2
+%\end{aligned}\right.\)
+%\qquad
+%\subproblem
+%\(\left\{\begin{aligned} &
+%    (a + 1) x + 8 y = 4 a
+%\\ &
+%    a x + (a + 3) y = 3 a - 1
+%\end{aligned}\right.\)
+%\\[1ex]
+\begin{subproblemeq*}
+\left\{\begin{aligned} &
+    a^2 x + (2 - a) y = 4 + a^2
+\\ &
+    a x + (2 a - 1) y = a^5 - 2
+\end{aligned}\right.
+\end{subproblemeq*}
+\hspace{1.5em}\=
+\begin{subproblemeq*}
+\left\{\begin{aligned} &
+    a x + y = a^3
+\\ &
+    x + a y = 1
+\end{aligned}\right.
+\end{subproblemeq*}
+\\
+\begin{subproblemeq}
+\left\{\begin{aligned} &
+    a x - a y = a b
+\\ &
+    2 a x - y = a
+\end{aligned}\right.
+\end{subproblemeq}
+\qquad\>
+\begin{subproblemeq*}
+\left\{\begin{aligned} &
+    a x + b y = a
+\\ &
+    b x + a y = b
+\end{aligned}\right.
+\end{subproblemeq*}
+\qquad\>
+\begin{subproblemeq*}
+\left\{\begin{aligned} &
+    |a| x - y = 1
+\\ &
+    x + |a| y = a
+\end{aligned}\right.
+\end{subproblemeq*}
+\end{tabbing}
+
+\item
+Функция $f(x)$ при каждом действительном значении $x$ удовлетворяет равенству
+\[
+    f(x)
+    +
+    (x + 1/2) \cdot f(1 - x)
+=
+    1
+.\]
+\subproblem
+Найдите $f(0)$ и $f(1)$.
+\quad
+\subproblem
+Найдите все такие функции.
+
+\item \label{problem:two lines in coordinates}
+Две прямые заданы своими уравнениями:
+\[\left\{\begin{aligned}
+    a_1 x + b_1 y + c_1 = 0\\
+    a_2 x + b_2 y + c_2 = 0
+\end{aligned}\right.\]
+Сформулируйте и докажите условия, накладываемые на коэффициенты прямых, если
+\quad
+\subproblem прямые пересекаются в одной точке;
+\\
+\subproblem прямые параллельны и не совпадают;
+\quad
+\subproblem прямые совпадают.
+
+\end{problems}
+
